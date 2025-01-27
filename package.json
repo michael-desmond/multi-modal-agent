@@ -21,6 +21,7 @@
     "url": "https://github.com/i-am-bee/bee-agent-framework-starter/issues"
   },
   "scripts": {
+    "agent": "npm start src/multi_modal.ts",
     "start": "npm exec tsx",
     "ts:check": "tsc --noEmit --project tsconfig.json",
     "build": "rimraf dist && tsc",
